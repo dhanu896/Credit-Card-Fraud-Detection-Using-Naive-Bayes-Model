@@ -1,0 +1,44 @@
+/* Add to existing CSS */
+.advanced-toggle {
+    margin: 15px 0;
+    padding: 10px;
+    background: #f8f9ff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.advanced-toggle summary {
+    font-weight: 600;
+    color: #667eea;
+    cursor: pointer;
+}
+
+.advanced-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-top: 15px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+}
+
+.advanced-features input {
+    width: 100%;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.info-card {
+    background: linear-gradient(135deg, #667eea10, #764ba210);
+}
+
+.metric-card {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.metric-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
